@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.github.blarc.ai.commits.intellij.plugin.settings.ProjectSettings" isProjectSpecificPrompt="true">
+    <option name="projectSpecificPrompt" value="true" />
+    <option name="splitButtonActionSelectedLLMClientId" value="c7651e3f-dcde-46bf-afa6-68ce37534afc" />
+    <option name="activePrompt">
+      <Prompt>
+        <option name="content" value="Write a concise, clear, and informative commit message based on the conventional commit specification.&#10;&#10;- Format: `&lt;type&gt;(&lt;scope&gt;): &lt;description&gt;`&#10;- Accurately classify the commit type (see below). If uncertain, provide the best guess:&#10;    - feat: A new feature for the user.&#10;        - Functionality changes that are user-facing.&#10;    - fix: A bug fix.&#10;    - docs: Changes to documentation.&#10;    - style: Code style changes.&#10;    - refactor: Code changes that neither fix a bug nor add a feature;&#10;        - Only use for code changes, that do not change functionality or are user-facing.&#10;    - test: Adding or correcting tests.&#10;    - chore: Maintenance, project config or auxiliary tool changes.&#10;- Accurately classify the commit scope (see below). If uncertain, provide the best guess:&#10;    - Noun describing a section of the codebase.&#10;    - E.g.:&#10;      areas, contacts, containers, orders, prices, settings, statistics, core, ui, config, yarn, gradle, deps,&#10;      github-actions, release.&#10;- Use present tense and active voice.&#10;- Subject&#10;    - Start with a lowercase letter and avoid ending with a period.&#10;    - Encapsulate any code, numbers, or filenames in backticks.&#10;- Body (optional)&#10;    - Only add really relevant information, that are not already covered by the subject.&#10;    - If it really matters. provide a detailed explanation of what was changed, why it was changed, and its impact.&#10;&#10;Each line, MUST NOT exceed **72** characters; Wrap in the body if necessary!&#10;&#10;Use {locale} language to answer and not embed the response in a code block.&#10;&#10;`git diff --staged`:&#10;&#10;{diff}" />
+        <option name="description" value="提示词模板" />
+        <option name="name" value="BaseMode" />
+      </Prompt>
+    </option>
+    <option name="locale" value="zh-Hans-SG" />
+  </component>
+</project>
